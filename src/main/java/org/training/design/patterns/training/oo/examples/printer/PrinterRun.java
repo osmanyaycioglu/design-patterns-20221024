@@ -9,5 +9,11 @@ public class PrinterRun {
         employee.setSurname("yay");
         employee.setGender(EGender.MALE);
         printerObj.print(employee);
+
+        Person person = new Person(); // bu satırı değiştirebilirsiniz
+        person.setFullName("osman yay");
+        person.setGender("MALE");
+        printerObj.print(person);
+
     }
 }
