@@ -1,4 +1,4 @@
-package org.training.design.patterns.training.oo.examples.printer;
+package org.training.design.patterns.training.oo.structural.adapter;
 
 import lombok.Getter;
 import lombok.Setter;
