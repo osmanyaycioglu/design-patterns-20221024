@@ -6,7 +6,7 @@ import org.training.design.patterns.training.oo.structural.adapter.PersonToEmplo
 public class PrinterRun2 {
 
     public static void main(String[] args) {
-        PrinterObj printerObj = new PrinterObj(); // Burayı değiştirebilirsiniz
+        PrinterObj printerObj = new PrinterObjectProxy(); // Burayı değiştirebilirsiniz
         Employee employee = new Employee();
         employee.setName("osman");
         employee.setSurname("yay");

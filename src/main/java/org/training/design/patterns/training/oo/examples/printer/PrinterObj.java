@@ -10,4 +10,8 @@ public class PrinterObj {
         }
     }
 
+    public void warmUp(){
+        System.out.println("warming printer");
+    }
+
 }
