@@ -2,6 +2,7 @@ package org.training.design.patterns.training.oo.examples.printer;
 
 import org.training.design.patterns.training.oo.structural.adapter.Person;
 import org.training.design.patterns.training.oo.structural.adapter.PersonToEmployeeAdapter;
+import org.training.design.patterns.training.oo.structural.facade.PrinterFacadeFactory;
 
 public class PrinterRun2 {
 
@@ -12,6 +13,8 @@ public class PrinterRun2 {
         employee.setSurname("yay");
         employee.setGender(EGender.MALE);
         printerObj.print(employee);
+
+        employee.print(PrinterFacadeFactory::createPrinterFacade);
 
     }
 }

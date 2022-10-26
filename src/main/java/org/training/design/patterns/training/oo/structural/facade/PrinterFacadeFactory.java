@@ -1,4 +1,4 @@
-package org.training.design.patterns.training.oo.examples.printer.facade;
+package org.training.design.patterns.training.oo.structural.facade;
 
 public class PrinterFacadeFactory {
 

@@ -1,4 +1,4 @@
-package org.training.design.patterns.training.oo.interfaces.calculator.proxy;
+package org.training.design.patterns.training.oo.structural.proxy;
 
 public class GreetingsRun {
     public static void main(String[] args) {
