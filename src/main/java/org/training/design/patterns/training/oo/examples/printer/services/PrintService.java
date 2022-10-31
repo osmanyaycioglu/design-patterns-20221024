@@ -16,7 +16,8 @@ public class PrintService {
         provisionFacade.addCustomer(customer);
         EGender eGender = EGender.MALE;
 
-        PrintData printData = new PrintData();
+        PrintData printData = PrintData.builder()
+                                       .build();
         printData.setName(customer.getCustomerDetailsIm().getName());
         printData.setName(customer.getCustomerDetailsIm().getSurname());
         printData.setGender(eGender);

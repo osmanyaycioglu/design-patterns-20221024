@@ -6,7 +6,7 @@ import java.math.BigDecimal;
 import java.util.HashMap;
 import java.util.Map;
 
-public class CurrencyExchangeTask implements IBankingTask{
+public class CurrencyExchangeTask implements IBankingTask {
     @Override
     public void execute(Customer customer,
                         BigDecimal amount,
@@ -17,8 +17,9 @@ public class CurrencyExchangeTask implements IBankingTask{
 
     @Override
     public Map<String, String> getParameterInfos() {
-        Map<String,String> paramMap = new HashMap<>();
-        paramMap.put("currency","string");
+        Map<String, String> paramMap = new HashMap<>();
+        paramMap.put("currency",
+                     "string");
         return paramMap;
     }
 
